@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Sori",
+    "slug": "sori",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FCF5F3"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlosnavarro.sori"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "fonts": [
+        {
+          "asset": "assets/fonts/Montserrat.ttf"
+        },
+        {
+          "asset": "assets/fonts/Fraunces.ttf"
+        }
+      ],
+      "eas": {
+        "projectId": "e4b05a5c-34de-455c-9591-ed35db54cfaa"
+      }
+    }
+  }
+}
